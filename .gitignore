@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PixelSwapper.Domain/obj
+/PixelSwapper.Domain/bin/Debug/netcoreapp3.1
+/.vs
+/RandomImageCreator/.vs/RandomImageCreator
+/RandomImageCreator/RandomImageCreator.App/bin/Debug/netcoreapp3.1
+/RandomImageCreator/RandomImageCreator.App/obj
+/RandomImageCreator/RandomImageCreator.Domain/obj
+/RandomImageCreator/RandomImageCreator.Domain/bin/Debug/netcoreapp3.1
