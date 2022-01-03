@@ -12,5 +12,8 @@ namespace RandomImageCreator.Domain
 
         public static SolidBrush ColorToBrush(Color colour)
             => new SolidBrush(colour);
+
+        public static string ColorToRGBText(Color colour)
+            => $"({colour.R}, {colour.G}, {colour.B})";
     }
 }

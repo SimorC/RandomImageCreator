@@ -4,7 +4,7 @@ namespace RandomImageCreator.Domain
 {
     public interface IImageService
     {
-        public Bitmap CreateEmptyImage(Color backgroundColour, int width, int height);
-        public Bitmap WriteTextOnImage(string text, Color fontColour, string fontName, float fontSize, Bitmap image);
+        public Bitmap CreateEmptyImage(Color backgroundColour);
+        public Bitmap WriteTextOnImage(Color fontColour, Bitmap image);
     }
 }
